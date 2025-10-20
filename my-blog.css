@@ -1,0 +1,174 @@
+body{
+    background-color:rgba(255, 247, 209, 0.731);
+}
+
+h1{
+    margin:auto;
+    text-align:center;
+    line-height: 100px;
+    color:black;
+    font-size: 50px;
+    font-family: "楷体";
+    font-weight:bold;
+}
+
+#textbackground1{
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 340px;
+    height: 100px;
+    background-color: hwb(50 43% 2% / 0.5);
+    border-radius: 15px;
+}
+
+#img1{
+    display: block;
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid rgba(227, 185, 71, 0.735);
+}
+
+#img2{
+    position: absolute;
+    z-index: 9999;
+    margin-left: 160px;
+    margin-top: -110px;
+    width: 150px;
+    height: 150px;
+}
+
+#img3{
+    position: absolute;
+    z-index: 9999;
+    margin-left: 1200px;
+    margin-top: -300px;
+    width: 200px;
+    height: 200px;
+}
+
+#p1{
+    margin-left: 240px;
+    margin-top: 20px;
+    color:black;
+    font-size: 30px;
+    font-family: "楷体";
+    font-weight:bold;
+}
+
+#textbackground2{
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 200px;
+    /* 使用 sticky 使侧边栏随页面滚动 */
+    position: sticky;
+    top: 20px; /* 距离视口顶部 20px 时开始固定 */
+    background-color: hwb(51 14% 1% / 0.301);
+    border-radius: 15px;
+}
+
+#p2{
+    margin: auto;
+    margin-top: 10px;
+    line-height: 100px;
+    text-align:center;
+    color:black;
+    font-size: 30px;
+    font-family: "楷体";
+    font-weight:bold;
+    cursor: pointer;
+}
+
+#p2:hover{
+    color: rgb(56, 165, 243);
+}
+
+/* 保持菜单链接点击后不变色（保持黑色），但保留悬停变色 */
+#p2 a,
+#p2 a:visited {
+    color: black;
+    text-decoration: none;
+}
+#p2 a:hover,
+#p2 a:focus {
+    color: rgb(56, 165, 243);
+    text-decoration: none;
+}
+
+#textbackground3{
+    margin-top: -450px;
+    margin-left: 500px;
+    width: 1000px;
+    height: 300px;
+    background-color: hwb(50 45% 1% / 0.288);
+    border-radius: 15px;
+    overflow: auto;
+}
+
+#textbackground4{
+    margin-top: 50px;
+    margin-left: 500px;
+    width: 1000px;
+    height: 1000px;
+    background-color: hwb(50 45% 1% / 0.288);
+    border-radius: 15px;
+    overflow: auto;
+}
+
+#textbackground5{
+    margin-top: 50px;
+    margin-left: 500px;
+    width: 1000px;
+    height: 300px;
+    background-color: hwb(50 45% 1% / 0.288);
+    border-radius: 15px;
+    overflow: auto;
+}
+
+h2{
+    margin: auto;
+    line-height: 100px;
+    color:rgb(116, 157, 223);
+    font-size: 40px;
+    font-family: "楷体";
+    font-weight:bold;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#p4{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color:black;
+    font-size: 30px;
+    font-family: "楷体";
+    font-weight:bold;
+}
+
+#p3{
+    margin: auto;
+    line-height: 30px;
+    color:black;
+    font-size: 30px;
+    font-family: "楷体";
+    font-weight:bold;
+    background-color: rgba(240, 202, 156, 0.678);
+    width: 800px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#img4{
+    margin: auto;
+    z-index: 9999;
+    height: 50%;
+    width: 30%;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
